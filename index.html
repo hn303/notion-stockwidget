@@ -16,319 +16,83 @@
     </div>
     <!-- TradingView Widget BEGIN -->
     <div class="tradingview-widget-container" id="dark">
-      <div class="tradingview-widget-container__widget"></div>
-      <div class="tradingview-widget-copyright">
-        <a href="https://www.tradingview.com" rel="noopener" target="_blank"
-          ><span class="blue-text">Market Data</span></a
-        >
-        by TradingView
-      </div>
-      <script
-        type="text/javascript"
-        src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js"
-        async
-      >
-          {
-          "width": "100%",
-          "height": "600",
-          "symbolsGroups": [
-          {
-            "name": "Stocks",
-            "symbols": [
-              {
-                "name": "NASDAQ:AMZN",
-                "displayName": "AMZN - Amazon"
-              },
-              {
-                "name": "TSX:BB",
-                "displayName": "BB - Blackberry"
-              },
-              {
-                "name": "TSX:BEPC",
-                "displayName": "BEPC - Brookfield Renewable"
-              },
-              {
-                "name": "TSX:BEP.UN",
-                "displayName": "BEP.UN - Brookfield Renewable"
-              },
-              {
-                "name": "TSX:BIP.UN",
-                "displayName": "BIP.UN - Brookfield Infrastructure"
-              },
-              {
-                "name": "TSX:BMO",
-                "displayName": "BMO - Bank of Montreal"
-              },
-              {
-                "name": "NASDAQ:CLAR",
-                "displayName": "CLAR - Clarus (BD)"
-              },
-              {
-                "name": "NYSE:GME",
-                "displayName": "GME - Gamestop"
-              },
-              {
-                "name": "TSXV:GRN",
-                "displayName": "GRN.V - Greenlane Renewables"
-              },
-              {
-                "name": "TSX:GRT.UN",
-                "displayName": "GRT.UN - Granite REIT"
-              },
-              {
-                "name": "TSX:LSPD",
-                "displayName": "LSPD - Lightspeed"
-              },
-              {
-                "name": "NASDAQ:MSFT",
-                "displayName": "MSFT - Microsoft"
-              },
-              {
-                "name": "NYSE:PLTR",
-                "displayName": "PLTR - Palantir"
-              },
-              {
-                "name": "TSX:VET",
-                "displayName": "VET - Vermillion Energy"
-              }
-            ]
-          },
-          {
-            "name": "ETFs",
-            "symbols": [
-              {
-                "name": "NASDAQ:BOTZ",
-                "displayName": "BOTZ - Robots & AI"
-              },
-              {
-                "name": "AMEX:IPAY",
-                "displayName": "IPAY - Mobile/FinTech"
-              },
-              {
-                "name": "NASDAQ:QCLN",
-                "displayName": "QCLN - Clean Energy Index"
-              },
-              {
-                "name": "NASDAQ:SKYY",
-                "displayName": "SKYY - Cloud Computing"
-              },
-              {
-                "name": "TSX:TEC",
-                "displayName": "TEC - Technology Index"
-              },
-              {
-                "name": "TSX:XIT",
-                "displayName": "XIT - CAD Tech Index"
-              },
-              {
-                "name": "TSX:ZRE",
-                "displayName": "ZRE - REITs"
-              },
-              {
-                "name": "TSX:ZUT",
-                "displayName": "ZUT - Utilities"
-              },
-              {
-                "name": "TSX:ZWB",
-                "displayName": "ZWB - CC Banks"
-              },
-              {
-                "name": "TSX:ZWU",
-                "displayName": "ZWU - CC Utilities"
-              }
-            ]
-          },
-          {
-            "name": "Watch List",
-            "symbols": [
-              {
-                "name": "NASDAQ:CRSR",
-                "displayName": "CRSR - Corsair"
-              },
-              {
-                "name": "NYSE:DM",
-                "displayName": "DM - Desktop Metal"
-              },
-              {
-                "name": "NYSE:PRLB",
-                "displayName": "PRLB - PROTO Labs"
-              },
-              {
-                "name": "AMEX:PRNT",
-                "displayName": "PRNT - 3D Printing"
-              },
-              {
-                "name": "NYSE:SQ",
-                "displayName": "SQ - Square"
-              }
-            ]
-          }
-        ],
-          "showSymbolLogo": true,
-          "colorTheme": "dark",
-          "isTransparent": true,
-          "locale": "en"
-        }
-      </script>
-    </div>
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://cn.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">行情</span></a>由TradingView提供</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "FOREXCOM:SPXUSD",
+      "title": "S&P 500"
+    },
+    {
+      "proName": "FOREXCOM:NSXUSD",
+      "title": "Nasdaq 100"
+    },
+    {
+      "description": "深圳成指",
+      "proName": "SZSE:399106"
+    },
+    {
+      "description": "上证指数",
+      "proName": "SSE:000001"
+    },
+    {
+      "description": "英镑/人民币",
+      "proName": "FX_IDC:GBPCNY"
+    },
+    {
+      "description": "美元/人民币",
+      "proName": "FX_IDC:USDCNY"
+    }
+  ],
+  "colorTheme": "dark",
+  "isTransparent": true,
+  "showSymbolLogo": true,
+  "locale": "zh_CN"
+}
+  </script>
+</div>
     <!-- TradingView Widget END -->
     <!-- TradingView Widget BEGIN -->
     <div class="tradingview-widget-container" id="light">
-      <div class="tradingview-widget-container__widget"></div>
-      <div class="tradingview-widget-copyright">
-        <a href="https://www.tradingview.com" rel="noopener" target="_blank"
-          ><span class="blue-text">Market Data</span></a
-        >
-        by TradingView
-      </div>
-      <script
-        type="text/javascript"
-        src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js"
-        async
-      >
-      {
-        "width": "100%",
-        "height": "600",
-        "symbolsGroups": [
-        {
-          "name": "Stocks",
-          "symbols": [
-            {
-              "name": "NASDAQ:AMZN",
-              "displayName": "AMZN - Amazon"
-            },
-            {
-              "name": "TSX:BB",
-              "displayName": "BB - Blackberry"
-            },
-            {
-              "name": "TSX:BEPC",
-              "displayName": "BEPC - Brookfield Renewable"
-            },
-            {
-              "name": "TSX:BEP.UN",
-              "displayName": "BEP.UN - Brookfield Renewable"
-            },
-            {
-              "name": "TSX:BIP.UN",
-              "displayName": "BIP.UN - Brookfield Infrastructure"
-            },
-            {
-              "name": "TSX:BMO",
-              "displayName": "BMO - Bank of Montreal"
-            },
-            {
-              "name": "NASDAQ:CLAR",
-              "displayName": "CLAR - Clarus (BD)"
-            },
-            {
-              "name": "NYSE:GME",
-              "displayName": "GME - Gamestop"
-            },
-            {
-              "name": "TSXV:GRN",
-              "displayName": "GRN.V - Greenlane Renewables"
-            },
-            {
-              "name": "TSX:GRT.UN",
-              "displayName": "GRT.UN - Granite REIT"
-            },
-            {
-              "name": "TSX:LSPD",
-              "displayName": "LSPD - Lightspeed"
-            },
-            {
-              "name": "NASDAQ:MSFT",
-              "displayName": "MSFT - Microsoft"
-            },
-            {
-              "name": "NYSE:PLTR",
-              "displayName": "PLTR - Palantir"
-            },
-            {
-              "name": "TSX:VET",
-              "displayName": "VET - Vermillion Energy"
-            }
-          ]
-        },
-        {
-          "name": "ETFs",
-          "symbols": [
-            {
-              "name": "NASDAQ:BOTZ",
-              "displayName": "BOTZ - Robots & AI"
-            },
-            {
-              "name": "AMEX:IPAY",
-              "displayName": "IPAY - Mobile/FinTech"
-            },
-            {
-              "name": "NASDAQ:QCLN",
-              "displayName": "QCLN - Clean Energy Index"
-            },
-            {
-              "name": "NASDAQ:SKYY",
-              "displayName": "SKYY - Cloud Computing"
-            },
-            {
-              "name": "TSX:TEC",
-              "displayName": "TEC - Technology Index"
-            },
-            {
-              "name": "TSX:XIT",
-              "displayName": "XIT - CAD Tech Index"
-            },
-            {
-              "name": "TSX:ZRE",
-              "displayName": "ZRE - REITs"
-            },
-            {
-              "name": "TSX:ZUT",
-              "displayName": "ZUT - Utilities"
-            },
-            {
-              "name": "TSX:ZWB",
-              "displayName": "ZWB - CC Banks"
-            },
-            {
-              "name": "TSX:ZWU",
-              "displayName": "ZWU - CC Utilities"
-            }
-          ]
-        },
-        {
-          "name": "Watch List",
-          "symbols": [
-            {
-              "name": "NASDAQ:CRSR",
-              "displayName": "CRSR - Corsair"
-            },
-            {
-              "name": "NYSE:DM",
-              "displayName": "DM - Desktop Metal"
-            },
-            {
-              "name": "NYSE:PRLB",
-              "displayName": "PRLB - PROTO Labs"
-            },
-            {
-              "name": "AMEX:PRNT",
-              "displayName": "PRNT - 3D Printing"
-            },
-            {
-              "name": "NYSE:SQ",
-              "displayName": "SQ - Square"
-            }
-          ]
-        }
-      ],
-        "showSymbolLogo": true,
-        "colorTheme": "light",
-        "isTransparent": true,
-        "locale": "en"
-      }
-      </script>
-    </div>
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://cn.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">行情</span></a>由TradingView提供</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "FOREXCOM:SPXUSD",
+      "title": "S&P 500"
+    },
+    {
+      "proName": "FOREXCOM:NSXUSD",
+      "title": "Nasdaq 100"
+    },
+    {
+      "description": "深圳成指",
+      "proName": "SZSE:399106"
+    },
+    {
+      "description": "上证指数",
+      "proName": "SSE:000001"
+    },
+    {
+      "description": "英镑/人民币",
+      "proName": "FX_IDC:GBPCNY"
+    },
+    {
+      "description": "美元/人民币",
+      "proName": "FX_IDC:USDCNY"
+    }
+  ],
+  "colorTheme": "light",
+  "isTransparent": true,
+  "showSymbolLogo": true,
+  "locale": "zh_CN"
+}
+  </script>
+</div>
     <!-- TradingView Widget END -->
     <!-- Custom JS for widget styling BEGIN -->
     <script src="app.js"></script>
